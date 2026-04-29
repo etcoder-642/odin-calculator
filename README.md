@@ -1,12 +1,16 @@
 # Calculator Project
 
-A project for The Odin Project curriculum.
-
 ## Overview
 This project is a simple calculator that evaluates expressions step by step as the user inputs values, rather than following traditional BODMAS rules. Instead of waiting for a complete mathematical expression, the calculator immediately updates the result after each operator is pressed.
 
 ## Core Functionality
 The project relies on three main variables to store user inputs and five important flags to track user interactions and calculation states.
+
+## Visual Demo
+<img width="883" height="407" alt="image" src="https://github.com/user-attachments/assets/392ab88a-5287-4903-a88f-d63b7c37ac59" />
+ ### When making impossible calculations
+ <img width="1462" height="794" alt="image" src="https://github.com/user-attachments/assets/3c6526a4-a4ce-42c5-99e5-5d5a790eb68f" />
+
 
 ### Variables:
 - `liveVar`: Holds the current active number or result of calculations.
@@ -71,7 +75,3 @@ If the user deletes a number, the program needs to know whether to modify `liveV
 
 ## Conclusion
 This project showcases an interactive approach to real-time calculations by prioritizing user input flow. The flag system ensures calculations behave predictably, providing a seamless experience for users. Through careful state management, the calculator allows for continuous operations, correct handling of percentages, and intuitive input correction.
-
----
-Let me know if anything needs further clarification!
-
